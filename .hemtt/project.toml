@@ -1,0 +1,10 @@
+name = "ace-uncon-spectator"
+author = "Foxymilyan"
+prefix = "fox"
+mainprefix = "f"
+
+[version]
+major = 0
+minor = 1
+patch = 0
+build = 0
