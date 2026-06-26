@@ -1,19 +1,20 @@
-name = "Fox ACE Unconscious Spectator";
+name = "Fox's ACE Unconscious Spectator";
 author = "Foxymilyan";
 
-picture = "";
-logo = "";
-logoOver = "";
-logoSmall = "";
+picture = "picture_ca.paa";
 
-tooltip = "Fox ACE Unconscious Spectator";
-tooltipOwned = "Fox ACE Unconscious Spectator";
+logo = "logo_ca.paa";
+logoOver = "logo_ca.paa";
+logoSmall = "logo_ca.paa";
+
+tooltip = "Fox's ACE Unconscious Spectator";
+tooltipOwned = "Fox's ACE Unconscious Spectator";
 
 actionName = "";
 action = "";
 
 overview = "Adds ACE Spectator support for unconscious players. Players can observe living teammates from their own side while unconscious. Spectator closes when the player wakes up, dies, or respawns.";
 
-overviewText = "Fox ACE Unconscious Spectator";
+overviewText = "Fox's ACE Unconscious Spectator";
 overviewFootnote = "Requires CBA_A3 and ACE3.";
-overviewPicture = "";
+overviewPicture = "overview_ca.paa";

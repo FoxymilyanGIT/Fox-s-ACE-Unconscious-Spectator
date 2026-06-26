@@ -17,6 +17,14 @@ parameters = [
     "-filePatching"
 ]
 
+[files]
+include = [
+    "mod.cpp",
+    "logo_ca.paa",
+    "picture_ca.paa",
+    "overview_ca.paa"
+]
+
 [version]
 major = 0
 minor = 1
