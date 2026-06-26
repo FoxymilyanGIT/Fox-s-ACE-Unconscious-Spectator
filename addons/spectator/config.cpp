@@ -9,13 +9,13 @@ class CfgPatches
         requiredVersion = 2.14;
    
 
-    requiredAddons[] =
-    {
-        "cba_main",
-        "ace_main",
-        "ace_medical",
-        "ace_spectator"
-    };
+        requiredAddons[] =
+        {
+            "cba_main",
+            "ace_main",
+            "ace_medical",
+            "ace_spectator"
+        };
 
     units[] = {};
     weapons[] = {};
