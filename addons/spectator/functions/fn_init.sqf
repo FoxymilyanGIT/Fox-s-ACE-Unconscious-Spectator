@@ -11,9 +11,9 @@ diag_log "[FOX Uncon Spectator] init loaded";
     if (_unit != _controlledPlayer) exitWith {};
 
     if (_state) then {
-        [] call FOX_fnc_openSpectator;
+        [] call FXUCS_fnc_openSpectator;
     } else {
-        [] call FOX_fnc_closeSpectator;
+        [] call FXUCS_fnc_closeSpectator;
     };
 }] call CBA_fnc_addEventHandler;
 
@@ -33,7 +33,7 @@ diag_log "[FOX Uncon Spectator] init loaded";
 
         diag_log "[FOX Uncon Spectator] player killed, closing spectator";
 
-        [] call FOX_fnc_closeSpectator;
+        [] call FXUCS_fnc_closeSpectator;
     }];
 
     _newUnit addEventHandler ["Respawn", {
@@ -42,11 +42,11 @@ diag_log "[FOX Uncon Spectator] init loaded";
         diag_log "[FOX Uncon Spectator] player respawned, closing spectator";
 
         // После респавна точно закрываем наш spectator
-        [] call FOX_fnc_closeSpectator;
+        [] call FXUCS_fnc_closeSpectator;
 
         // Страховка с задержкой, потому что respawn-скрипты миссии могут творить цирк
         [{
-            [] call FOX_fnc_closeSpectator;
+            [] call FXUCS_fnc_closeSpectator;
             [false, true, false] call ace_spectator_fnc_setSpectator;
         }, [], 0.25] call CBA_fnc_waitAndExecute;
     }];

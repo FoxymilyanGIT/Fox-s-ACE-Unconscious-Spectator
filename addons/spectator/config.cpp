@@ -4,6 +4,8 @@ class CfgPatches
     {
         name = "Ace Unconscious Spectator";
         author = "Foxymilyan";
+        url = "";
+
         requiredVersion = 2.14;
    
 
@@ -23,11 +25,11 @@ class CfgPatches
 
 class CfgFunctions
 {
-    class FOX
+    class FXUCS
     {
         class uncon_spectator
         {
-            file = "\f\fox\addons\main\functions";
+            file = "\f\fox\addons\spectator\functions";
 
             class init
             {
