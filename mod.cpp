@@ -10,8 +10,8 @@ logoSmall = "logo_ca.paa";
 tooltip = "Fox's ACE Unconscious Spectator";
 tooltipOwned = "Fox's ACE Unconscious Spectator";
 
-actionName = "";
-action = "";
+actionName = "Workshop";
+action = "https://steamcommunity.com/sharedfiles/filedetails/?id=3752154607";
 
 overview = "Adds ACE Spectator support for unconscious players. Players can observe living teammates from their own side while unconscious. Spectator closes when the player wakes up, dies, or respawns.";
 
